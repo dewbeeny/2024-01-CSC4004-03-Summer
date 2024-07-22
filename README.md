@@ -8,11 +8,13 @@
 
 ### <interface>
 
-### 1. login
+### 1. login , sign up
 
  **📌로그인 처리**
 <p align="center">
   <img width="300" alt="KakaoTalk_20240613_041024129" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/2f86e8cd-780e-46ce-b729-a1b5edb8b3f1">
+  <img width="300" alt="KakaoTalk_20240613_041216751" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/c951f3da-888d-4593-ba3b-fbcce3d9509d">
+  <img width="300" alt="KakaoTalk_20240613_041216751" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/c951f3da-888d-4593-ba3b-fbcce3d9509d">
 </p>
 
 <p>
@@ -20,10 +22,20 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
   보안 약점 😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.
 </p>
 
+### 1. main, chatting Screen
+
+ **📌메인 화면**
+<p align="center">
+  <img width="300" alt="KakaoTalk_20240613_041122376" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ba1f99d6-d432-4716-851e-fc2d8bc75f3a">
+</p>
+
+<p>
+사용자가 검색창에 질문 입력시 채팅 text와 함께 chatting Screen으로 넘어감.<br/><br/>
+</p>
 <table>
  < tr>
     <td>
-    <td><img width="300" alt="KakaoTalk_20240613_041122376" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ba1f99d6-d432-4716-851e-fc2d8bc75f3a"></td>
+    
     <td><img width="300" alt="KakaoTalk_20240613_041216751" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/c951f3da-888d-4593-ba3b-fbcce3d9509d"></td>
   </tr>
   <tr>
