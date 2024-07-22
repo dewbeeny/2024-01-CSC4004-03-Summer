@@ -38,12 +38,17 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
 
 ### 2. credit Screen, time table
 
- **📌학점 조회**
+ **📌학점 조회, 시간표 추천, 커리 큘럼**
  
 <p align="center">
     <img width="300" alt="KakaoTalk_20240613_041437306" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/a06b88f8-43a0-4884-9c76-5705d919b554">
     <img width="300" alt="KakaoTalk_20240613_041455436" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/32393b30-a451-4a0c-8c36-d708db9c92b1">
     <img width="300" alt="KakaoTalk_20240613_041550441" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ee4eab4b-c662-45b4-b491-53e2b4ebc30d">
+    <img width="300" alt="KakaoTalk_20240613_041701520" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/19e2431d-8e21-4808-84d0-56287d043333">
+</p>
+
+ **📌시간표 조회**
+<p align="center">
     <img width="300" alt="KakaoTalk_20240613_041701520" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/19e2431d-8e21-4808-84d0-56287d043333">
 </p>
   
