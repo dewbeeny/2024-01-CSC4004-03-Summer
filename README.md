@@ -22,7 +22,7 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
   보안 약점 😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.
 </p>
 
-### 1. main, chatting Screen
+### 2. main, chatting Screen
 
  **📌메인 화면**
 <p align="center">
@@ -36,9 +36,8 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
  < tr>
     <td>
     
-    <td><img width="300" alt="KakaoTalk_20240613_041216751" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/c951f3da-888d-4593-ba3b-fbcce3d9509d"></td>
-  </tr>
-  <tr>
+    <img width="300" alt="KakaoTalk_20240613_041216751" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/c951f3da-888d-4593-ba3b-fbcce3d9509d">
+<td><img width="300" alt="KakaoTalk_20240613_041122376" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ba1f99d6-d432-4716-851e-fc2d8bc75f3a"></td>
     <td><img width="300" alt="KakaoTalk_20240613_041311091" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/95952898-17b8-4295-873a-ff6a4a9dbc05"></td>
     <td><img width="300" alt="KakaoTalk_20240613_041437306" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/a06b88f8-43a0-4884-9c76-5705d919b554"></td>
     <td><img width="300" alt="KakaoTalk_20240613_041455436" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/32393b30-a451-4a0c-8c36-d708db9c92b1"></td>
