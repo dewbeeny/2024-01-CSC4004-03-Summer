@@ -7,7 +7,7 @@
 따라서 본 프로젝트는 이러한 문제를 해결하기 위해 사용자 친화적인 UI와 새로운 기능을 개발하여, 학생들이 더 쉽게 필요한 정보를 얻고 졸업 요건을 충족할 수 있도록 돕는 것을 목표로 한다. 이를 통해 대학 생활에 익숙하지 않은 학생들에게 더 높은 편의성을 제공하고자 한다.
 
 
-### <Interface>
+<Interface>
 
 ### 1. login
 
@@ -17,7 +17,7 @@
 </p>
 
 <p>
-JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.<br/>
+JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.<br/><br/>
   보안 약점 😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.
 </p>
 
