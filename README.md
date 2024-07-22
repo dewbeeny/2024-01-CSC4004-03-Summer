@@ -28,6 +28,7 @@ https://www.youtube.com/watch?v=1n1VtqlyKgg&feature=youtu.be
 JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.<br/><br/>
   보안 약점 😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.
 </p>
+<br/>
 
 ### 2. main, chatting Screen
 
@@ -42,8 +43,9 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
 사용자가 검색창에 질문 입력시 채팅 text와 함께 chatting Screen으로 넘어감.<br/><br/>
 예상 질문의 경우 키워드 필터링을 통해 준비된 응답을 출력. 그외 질문은 GPT API로 처리.
 </p>
+<br/>
 
-### 2. credit Screen, time table
+### 3. credit Screen, time table
 
  **📌학점 조회, 시간표 추천, 커리 큘럼**
  
