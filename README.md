@@ -92,7 +92,7 @@ https://conscious-flier-5e5.notion.site/SUMMER-API-d2362f3949ab42a9b58a4a254e6eb
 
 ### 팀원
 * 2020112030 컴퓨터공학과 김선표 (Backend)
-* 2021110022 불교학부 김수빈 (Frontend)
+* 2021110022 불교학부 김수빈 (Frontend Part leader)
 * 2023112564 컴퓨터공학과 김윤서 (Backend)
 * 2020112056 컴퓨터공학과 노정우 (Backend)
 * 2021111042 컴퓨터공학과 정설화 (Frontend) 
