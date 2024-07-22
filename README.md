@@ -27,11 +27,15 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
  **📌메인 화면**
 <p align="center">
   <img width="300" alt="KakaoTalk_20240613_041122376" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ba1f99d6-d432-4716-851e-fc2d8bc75f3a">
+  <img width="300" alt="스크린샷 2024-06-13 064102" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/45f02105-ef4b-4788-bdbe-d39ddbd61784">
+
 </p>
 
 <p>
 사용자가 검색창에 질문 입력시 채팅 text와 함께 chatting Screen으로 넘어감.<br/><br/>
+예상 질문의 경우 키워드 필터링을 통해 준비된 응답을 출력. 그외 질문은 GPT API로 처리.
 </p>
+
 <p align="center">
     <img width="300" alt="KakaoTalk_20240613_041216751" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/c951f3da-888d-4593-ba3b-fbcce3d9509d">
     <img width="300" alt="KakaoTalk_20240613_041122376" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ba1f99d6-d432-4716-851e-fc2d8bc75f3a">
@@ -40,7 +44,6 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
     <img width="300" alt="KakaoTalk_20240613_041455436" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/32393b30-a451-4a0c-8c36-d708db9c92b1">
     <img width="300" alt="KakaoTalk_20240613_041550441" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ee4eab4b-c662-45b4-b491-53e2b4ebc30d">
     <img width="300" alt="KakaoTalk_20240613_041701520" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/19e2431d-8e21-4808-84d0-56287d043333">
-    <img width="300" alt="스크린샷 2024-06-13 064102" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/45f02105-ef4b-4788-bdbe-d39ddbd61784">
 </p>
   
 
