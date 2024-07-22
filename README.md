@@ -1,18 +1,25 @@
 # A-ko Mentor
 
 ## 대학 생활 안내 웹앱
-#### 개요
+### 개요
 기존의 대학 생활 정보 제공 어플리케이션과 웹사이트는 사용자가 원하는 정보를 찾기 어렵고, 신입생이 필요로 하는 기능이 부족한 UI를 가지고 있다. 동국대학교의 AI 소프트웨어융합학부를 비롯한 여러 전공에서는 선수과목 이수 시스템을 사용하고 있지만, 정보 전달이 명확하지 않다. 
 따라서 본 프로젝트는 이러한 문제를 해결하기 위해 사용자 친화적인 UI와 새로운 기능을 개발하여, 학생들이 더 쉽게 필요한 정보를 얻고 졸업 요건을 충족할 수 있도록 돕는 것을 목표로 한다. 이를 통해 대학 생활에 익숙하지 않은 학생들에게 더 높은 편의성을 제공하고자 한다.
 
 
-#### Interface
-<img width="300" alt="KakaoTalk_20240613_041024129" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/2f86e8cd-780e-46ce-b729-a1b5edb8b3f1"></td>
-    <h3>📌로그인 처리</h3>
-    <p>JWT를 이용하는 방식 (accessToken)
-    acessToken을 localStorage에 저장 방식
-      
-    😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.</p>
+### Interface
+
+#### login
+
+ **📌로그인 처리**
+<p align="center">
+  <img width="300" alt="KakaoTalk_20240613_041024129" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/2f86e8cd-780e-46ce-b729-a1b5edb8b3f1">
+</p>
+
+<p>
+JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
+보안 약점 😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.
+</p>
+
 <table>
  < tr>
     <td>
