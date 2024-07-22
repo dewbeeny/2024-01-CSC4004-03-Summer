@@ -11,6 +11,10 @@
 <table>
   <tr>
     <td><img width="300" alt="KakaoTalk_20240613_041024129" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/2f86e8cd-780e-46ce-b729-a1b5edb8b3f1"></td>
+    <h3>📌로그인 처리</h3>
+    <p>JWT를 이용하는 방식 (accessToken)
+    acessToken을 localStorage에 저장 방식
+    😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.</p>
     <td><img width="300" alt="KakaoTalk_20240613_041122376" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ba1f99d6-d432-4716-851e-fc2d8bc75f3a"></td>
     <td><img width="300" alt="KakaoTalk_20240613_041216751" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/c951f3da-888d-4593-ba3b-fbcce3d9509d"></td>
   </tr>
