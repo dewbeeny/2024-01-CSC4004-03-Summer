@@ -17,8 +17,7 @@
 </p>
 
 <p>
-JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.  
-보안 약점 😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.
+JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.   보안 약점 😈 : localStorage 안에 세션 id, refreshToken 또는 accessToken을 저장해두면 XSS 취약점을 통해 그 안에 담긴 값을 불러오거나, 불러온 값을 이용해 API 콜을 위조할 수 있다.
 </p>
 
 <table>
