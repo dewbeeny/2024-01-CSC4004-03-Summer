@@ -6,7 +6,8 @@
 기존의 대학 생활 정보 제공 어플리케이션과 웹사이트는 사용자가 원하는 정보를 찾기 어렵고, 신입생이 필요로 하는 기능이 부족한 UI를 가지고 있다. 동국대학교의 AI 소프트웨어융합학부를 비롯한 여러 전공에서는 선수과목 이수 시스템을 사용하고 있지만, 정보 전달이 명확하지 않다. 
 따라서 본 프로젝트는 이러한 문제를 해결하기 위해 사용자 친화적인 UI와 새로운 기능을 개발하여, 학생들이 더 쉽게 필요한 정보를 얻고 졸업 요건을 충족할 수 있도록 돕는 것을 목표로 한다. 이를 통해 대학 생활에 익숙하지 않은 학생들에게 더 높은 편의성을 제공하고자 한다.
 
-### <interface>
+### 시안
+https://www.youtube.com/watch?v=1n1VtqlyKgg&feature=youtu.be
 
 ### 1. login , sign up
 
@@ -44,14 +45,16 @@ JWT를 이용하는 방식으로 acessToken을 localStorage에 저장 하였다.
     <img width="300" alt="KakaoTalk_20240613_041437306" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/a06b88f8-43a0-4884-9c76-5705d919b554">
     <img width="300" alt="KakaoTalk_20240613_041455436" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/32393b30-a451-4a0c-8c36-d708db9c92b1">
     <img width="300" alt="KakaoTalk_20240613_041550441" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/ee4eab4b-c662-45b4-b491-53e2b4ebc30d">
-    <img width="300" alt="KakaoTalk_20240613_041701520" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/19e2431d-8e21-4808-84d0-56287d043333">
 </p>
+
+원그래프로 학점 조회 가능.(애니메이션 활용)
+커리큘럼의 경우 마우스 호버가 잡히면 버블로 선이수 과목을 알려줌.
 
  **📌시간표 조회**
 <p align="center">
     <img width="300" alt="KakaoTalk_20240613_041701520" src="https://github.com/CSID-DGU/2024-01-CSC4004-03-Summer/assets/121737437/19e2431d-8e21-4808-84d0-56287d043333">
 </p>
-  
+  구글 지도 URL을 활용하여 각 건물의 위도 경도를 필터링하여 길찾기로 연결.
 
 #### Database Structure
 
